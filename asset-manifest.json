@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DogImageFinder/static/css/main.e6c13ad2.css",
+    "main.js": "/DogImageFinder/static/js/main.9826c3aa.js",
+    "static/media/PoppinsBold.otf": "/DogImageFinder/static/media/PoppinsBold.b5c5cbad4c3e1e9f4fec.otf",
+    "static/media/PoppinsRegular.otf": "/DogImageFinder/static/media/PoppinsRegular.1421a94e04ced16b1ffc.otf",
+    "index.html": "/DogImageFinder/index.html",
+    "main.e6c13ad2.css.map": "/DogImageFinder/static/css/main.e6c13ad2.css.map",
+    "main.9826c3aa.js.map": "/DogImageFinder/static/js/main.9826c3aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9826c3aa.js"
+  ]
+}
