@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# Project "Dog Image Finder"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dog Image Finder is a web application built with React that allows users to search for dog images by breeds. Users can adjust the number of photos they want to load, and the images are displayed in a gallery format on the page. 
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **Search by Breed and Subbreed**: Users can search for dog images by choosing the breed and the subbreed name from dropdown list.
+- **Adjustable Photo Count**: Users have the ability to adjust the number of photos they want to load for each breed.
+- **Gallery Display**: The retrieved dog images are displayed in a gallery format, making it easy for users to browse through them.
+- **Form Validation**: Basic form validation is implemented to ensure that users enter valid inputs.
 
-### `npm start`
+## Dog API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Dog API (https://dog.ceo/dog-api/) is utilized as the source of dog breeds and images for the Dog Image Finder project. This API provides a wide range of endpoints for accessing information about dog breeds, random dog images, and images by breed.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React**: React serves as the foundation of this project. Using React, was created efficient and easily maintainable user interface components that respond to state changes and update quickly.
+- **Redux**: Redux is used for state management, providing a centralized store for managing application state.
+- **Axios**: Axios is used for making HTTP requests to the Dog API. It enables easy interaction with external APIs and fetching or sending data to them.
+- **TypeScript**: TypeScript is used for writing typed code. It provides the ability to create more reliable and readable code, reducing the number of potential errors during development.
+- **Styled Components**: Styled Components library is used for styling components, allowing for easy maintenance and customization.
